@@ -5,7 +5,7 @@ public class URLGeneratorApp {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of company names you want to generate URLs for:");
         int numberOfCompanies = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline
+        scanner.nextLine(); 
 
         for (int i = 0; i < numberOfCompanies; i++) {
             System.out.println("Enter company name:");
